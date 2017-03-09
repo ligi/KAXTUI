@@ -1,0 +1,32 @@
+apply plugin: 'com.android.library'
+apply plugin: 'kotlin-android'
+apply plugin: 'android-maven'
+
+def libVersionName = '0.1'
+def libVersionCode = 1
+
+version libVersionName
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    compile "com.android.support:support-v4:$support_version"
+    compile "com.android.support:appcompat-v7:$support_version"
+
+    compile "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
+}
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion "25.0.2"
+
+    defaultConfig {
+        minSdkVersion 9
+        targetSdkVersion 25
+        versionCode libVersionCode
+        versionName libVersionName
+    }
+
+}
