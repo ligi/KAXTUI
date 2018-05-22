@@ -8,6 +8,7 @@ version libVersionName
 
 repositories {
     jcenter()
+    google()
 }
 
 dependencies {
