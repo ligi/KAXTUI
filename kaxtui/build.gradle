@@ -1,8 +1,8 @@
 apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 
-def libVersionName = '0.4'
-def libVersionCode = 4
+def libVersionName = '0.5'
+def libVersionCode = 5
 
 version libVersionName
 
