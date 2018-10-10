@@ -1,8 +1,8 @@
 package org.ligi.kaxtui
 
-import android.app.AlertDialog
 import android.content.Context
 import android.support.annotation.StringRes
+import android.support.v7.app.AlertDialog
 
 fun Context.alert(message: String,
                   title: String? = null,
